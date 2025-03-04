@@ -1,0 +1,12 @@
+TrafficTelligence: Advanced Traffic Volume Estimation With Machine Learning
+
+The Various libraries that are used in this project with their Versions are 
+
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.10.0
+scikit-learn==1.6.1
+Flask==3.1.0
+xgboost==2.1.4
+
+and The python Version that is used in this project is 3.13.2
