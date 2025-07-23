@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
-import numpy as np 
+
 import pickle
-import matplotlib.pyplot as plt 
+
 import time 
 import pandas 
 import os
