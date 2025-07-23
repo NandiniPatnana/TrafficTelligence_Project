@@ -1,10 +1,10 @@
 
 
 numpy
+Flask
 gunicorn
 pandas
 matplotlib
 scikit-learn
-Flask
 xgboost
 
