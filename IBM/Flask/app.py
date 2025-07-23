@@ -59,7 +59,7 @@ def predict():
     text = "Estimated Traffic Volume is: "
     return render_template("index.html", prediction_text = text + str(prediction[0]))
 
-if __name__ == "__main__":
-    print("Model's feature names:", model.feature_names_in_)
-    port = int(os.environ.get('PORT', 5000))
-    app.run(port=port, debug=True, use_reloader=False)
+# if __name__ == "__main__":
+#     print("Model's feature names:", model.feature_names_in_)
+#     port = int(os.environ.get('PORT', 5000))
+#     app.run(port=port, debug=True, use_reloader=False)
