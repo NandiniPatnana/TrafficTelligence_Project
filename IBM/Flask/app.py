@@ -8,6 +8,10 @@ import time
 import pandas 
 import os
 
+file_path = os.path.join(os.path.dirname(__file__), 'model.pkl')
+with open(file_path, 'rb') as file:
+    model = pickle.load(file)
+
 # Load model and encoder
 # with open(r"C:\Users\venka\OneDrive\Desktop\TrafficTelligence\IBM\model.pkl", 'rb') as file:
 with open(r"IBM/Flask/model.pkl", 'rb') as file:
