@@ -9,6 +9,9 @@ import os
 port = int(os.environ.get("PORT", 5000))
 app.run(host='0.0.0.0', port=port)
 
+file_path = os.path.join(os.path.dirname(__file__), 'model.pkl')
+with open(file_path, 'rb') as file:
+    model = pickle.load(file)
 
 # Load model and encoder
 # with open(r"C:\Users\patna\TrafficTelligence_ML Based Project\Flask\model.pkl", 'rb') as file:
