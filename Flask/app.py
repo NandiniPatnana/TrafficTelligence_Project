@@ -9,10 +9,12 @@ import os
 
 
 # Load model and encoder
-with open(r"C:\Users\patna\TrafficTelligence_ML Based Project\Flask\model.pkl", 'rb') as file:
+# with open(r"C:\Users\patna\TrafficTelligence_ML Based Project\Flask\model.pkl", 'rb') as file:
+with open(r"model.pkl", 'rb') as file:
     model = pickle.load(file)
 
-with open(r"C:\Users\patna\TrafficTelligence_ML Based Project\Flask\encoder.pkl", 'rb') as file:
+# with open(r"C:\Users\patna\TrafficTelligence_ML Based Project\Flask\encoder.pkl", 'rb') as file:
+with open(r"model.pkl", 'rb') as file:
     scale = pickle.load(file)
 print("Model's feature names:", model.feature_names_in_)
 
