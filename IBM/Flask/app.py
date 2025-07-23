@@ -9,10 +9,11 @@ import pandas
 import os
 
 # Load model and encoder
-with open(r"C:\Users\venka\OneDrive\Desktop\TrafficTelligence\IBM\model.pkl", 'rb') as file:
+# with open(r"C:\Users\venka\OneDrive\Desktop\TrafficTelligence\IBM\model.pkl", 'rb') as file:
+with open(r"IBM/Flask/model.pkl", 'rb') as file:
     model = pickle.load(file)
 
-with open(r"C:\Users\venka\OneDrive\Desktop\TrafficTelligence\IBM\encoder.pkl", 'rb') as file:
+with open(r"IBM/Flask/model.pkl", 'rb') as file:
     scale = pickle.load(file)
 print("Model's feature names:", model.feature_names_in_)
 
